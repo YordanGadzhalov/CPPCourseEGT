@@ -32,23 +32,26 @@ where do-while will execute the block of code atleast once before checking the c
 
 
 3.Code Analysis:
-	Given a snippet of C++ code containing a for loop, explain what the 	loop does, including how many times it iterates and why.
+	Given a snippet of C++ code containing a for loop, explain what the loop does, including how many times it iterates and why.
 
 for(int i = 0; i < 5; i++){
      cout << i << endl;
 }
 
-For цикълът започва от индекс 0. Условието е ,че докато i което е 0 е по-малко от 5 , i да се инкрементира с 1. След което да се изпринти променливата i.
+For цикълът започва от индекс 0. Условието е ,че докато i което е 0 е по-малко от 5 , i да се инкрементира с 1.
+След което да се изпринти променливата i.
 Този цикъл ще се повтаря докато i не стане = 5 и условието върне false.
 
-The given for loop starts with index 0. The condition is that while i which is 0 is less than 5, i increments by 1 and executes the block of code.
+The given for loop starts with index 0. The condition is that while i which is 0 is less than 5,
+i increments by 1 and executes the block of code.
 This loop will repeat until the variable i is equal to 5 and the condition returns false.
 
 
 
 
 4.Function Usage:
-	Write about how functions prevent code duplication and give an 	example of a simple C++ function that calculates the square of a 	number.
+	Write about how functions prevent code duplication and give an 
+example of a simple C++ function that calculates the square of a number.
 
 Фунцкиите съдържат блок от код който може да се използва многократно.
 
